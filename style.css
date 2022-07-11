@@ -25,12 +25,21 @@ body {
 }
 
 .quiz-header{
-    padding: 4rem;
+    padding: 4rem 4rem 3rem 4rem;
+}
+
+h2{
+    margin: 0;
 }
 
 ul{
     list-style-type: none;
     padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
 }
 
 button{
@@ -40,7 +49,7 @@ button{
     font-family: inherit;
     font-size: 1.5rem;
     width: 100%;
-    padding: 1rem;
+    padding: 1.2rem;
     border: none;
     cursor: pointer;
 }

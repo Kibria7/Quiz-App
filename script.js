@@ -39,4 +39,13 @@ const quizData = [
         d: 'None of the above',
         correct: 'c'
     }
-]
+];
+
+let currentQuestion = 0;
+
+loadQuiz();
+
+function loadQuiz(){
+
+    currentQuestion++;
+}
